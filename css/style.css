@@ -36,19 +36,26 @@
     margin: 0;
     padding: 0;
 }
+
 /*-------------------------
     reset css
 -------------------------*/
 * {
     box-sizing: border-box;
- }
+}
 
- body {
+html {font-size: 62.5%;}
+
+body {
     margin: 0;
-    padding: 0;
+    padding-top: 80px;
     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #e6e6e6;
- }
+    font-size: 1.6rem;
+    line-height: 2;
+    font-feature-settings: "palt";
+}
+
 /*-------------------------
     header
 -------------------------*/
@@ -58,7 +65,7 @@ header {
     background-color: #fff;
     position: fixed;
     top: 0;
-    display:flex;
+    display: flex;
     align-items: center;
 }
 
@@ -89,4 +96,12 @@ li {
 
 nav {
     margin: 0 0 0 auto;
+}
+
+/*-------------------------
+    top-main
+-------------------------*/
+.top-main ul li a {
+    display: block;
+    font-size: 10em;
 }
